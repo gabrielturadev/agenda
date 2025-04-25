@@ -1,0 +1,90 @@
+*{ margin: 0 ; padding: 0;}
+
+main {
+    font: 12px "verdana";
+}
+
+#lsita-contatos {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#lista-contatos table {
+    width: 100%;
+    border-collapse:collapse ;
+    border: 1px solid #000;
+}
+
+#lista-contatos table tr { 
+    padding: 10px;
+}
+
+#lista-contatos table td {
+    padding: 5px;
+}
+
+#lista-contatos table td img {
+    width: 70px;
+    border: 1px solid #000;
+}
+
+#lista-contatos table tbody tr:hover {
+    background: yellow
+}
+
+.botao-reover-contato  {
+    cursor: pointer;
+    text-align: center;
+    border:none !important;
+    width: 16px !important;
+}
+
+#formulario-cadastro-contato {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#formulario-cadastro-contato fieldset {
+    border: 1px solid #000;
+    padding: 1%;
+    background: #ccc;
+}
+
+#formulario-cadastro-contato legend {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#formulario-cadastro-contato ul li {
+    display: inline-block;
+    padding: 5px 7% 5px 5%;
+}
+
+#formulario-cadastro-contato ul img {
+    width: 70px;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+#formulario-cadastro-contato input {
+    display: block;
+    margin: 0px 0 5px 0;
+    border: 1px solid #000;
+    padding: 5px;
+    width: 98%;
+}
+
+#formulario-cadastro-contato button {
+    float: right;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+
